@@ -21,8 +21,26 @@ possible subsets. We display the string curr at the bottom most leaf.
 We call the function
 */
 
-#include <iostream>
+#include <bits/stdc++.h> 
 
 using namespace std;
 
-int 
+void printSub(string str, string curr = "", int index = 0){
+    
+    if(index == str.length()){  //base case; when str is ended
+        cout<<curr<<" ";
+        return;
+    }
+    printSub(str, curr + str[index], index + 1);    
+            //recursive call t include character
+    printSub(str, curr, index + 1);
+            //recursive call without adding character
+    
+}
+
+int main() {
+    string str;
+    cin>>str;
+	printSub(str);
+	return 0;
+}
