@@ -1,3 +1,7 @@
+/*
+This is the recursive solution for the popular Josephus problem.
+*/
+
 #include <bits/stdc++.h>
 
 using namespace std;
