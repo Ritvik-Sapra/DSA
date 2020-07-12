@@ -1,8 +1,22 @@
+/*
+The algo contains mainly three steps:
+
+1) Recursively call function with A as source, B as destination and 
+C as auxilary tower
+
+2) Print "move ${n} from ${source} to ${destination} "
+
+3) Recursively call function with B as source, C as destination and 
+A as auxilary tower
+
+The basic structure of the function is TOH(number, source, aux, destnation)
+*/
+
 #include <bits/stdc++.h>
 
 using namespace std;
 
-void TOH(int n, char A = 'A', char B ='B', char C ='C'){
+void TOH(int n, char A = 'A', char B ='B', char C ='C'){    //TOH function
     if(n == 1){
         cout<<"Move 1 from "<<A<<" to "<<C<<endl;
         return;
