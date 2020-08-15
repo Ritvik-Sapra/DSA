@@ -9,11 +9,13 @@ For e.g. if the input is:
 
 Then the output should be:
 1 2 3 4 8 12 11 10 9 5 1
+
+NOTE: This program is also available in C++.
 */
 
 import java.io.*;
 import java.util.Scanner;
-class GFG {
+class Intro2 {
 	public static void main (String[] args) {
 		Scanner ip = new Scanner(System.in);
 		int r, c;
