@@ -47,7 +47,7 @@ The following is the suggested learning plan for people who are just starting of
 
 * [Bit Magic/Bit Manipulatin](./Bit_Manipulation)
 * [Matrix](./Matrix)
-* Searching
+* [Searching](./Searching)
 
 ### 3. Week 3
 
