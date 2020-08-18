@@ -43,7 +43,7 @@ The following is the suggested learning plan for people who are just starting of
   * [Arrays](./Arrays)
 
 ### 2. Week 2
-  * [Bit Magic/Bit Manipulatin](./"Bit Manipulation")
+  * [Bit Magic/Bit Manipulatin](./Bit Manipulation)
   * [Matrix](./Matrix)
   * Searching
 
