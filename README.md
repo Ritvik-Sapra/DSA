@@ -2,10 +2,10 @@
 
 DSA is one of the most important field of study in computer science.
 
-However, learning DSA can be hard, 
+However, learning DSA can be hard,
 expecially when you are just starting to learn coding.
 
-This repository contains topic wise folders which has programs on various data structures and algorithms, 
+This repository contains topic wise folders which has programs on various data structures and algorithms,
 which are further divided into folders of different language codes.
 
 The purpose of making this repository was to document my progress so that anyone else who is just starting off like when I was,
@@ -39,51 +39,57 @@ Although they just make use of strong understanding of the basics.
 The following is the suggested learning plan for people who are just starting off to learn DSA.
 
 ### 1. Week 1
-  * [Recursion](./Recursion)
-  * [Arrays](./Arrays)
+
+* [Recursion](./Recursion)
+* [Arrays](./Arrays)
 
 ### 2. Week 2
-  * [Bit Magic/Bit Manipulatin](./Bit Manipulation)
-  * [Matrix](./Matrix)
-  * Searching
+
+* [Bit Magic/Bit Manipulatin](./Bit_Manipulation)
+* [Matrix](./Matrix)
+* Searching
 
 ### 3. Week 3
-  * Sorting
-  * Hashing
+
+* Sorting
+* Hashing
 
 ### 4. Week 4
-  * Strings
-  * Linked Lists
+
+* Strings
+* Linked Lists
 
 ### 5. Week 5
-  * Stacks
-  * Queues
+
+* Stacks
+* Queues
 
 ### 6. Week 6
-  * Tree
-  * Binary search tree
+
+* Tree
+* Binary search tree
 
 ### 7. Week 7
-  * Heaps
-  * Graphs
+
+* Heaps
+* Graphs
 
 ### 8. Week 8
-  * Recursion and Backtracking
-  * Dynamic Programing
+
+* Recursion and Backtracking
+* Dynamic Programing
 
 ### 9. Week 9
-  * Graph algorithms
+
+* Graph algorithms
 
 ### 10. Week 10
-  * Trie
-  * Segment tree
-  * Disjoint set
+
+* Trie
+* Segment tree
+* Disjoint set
 
 ## 3. Other important learning resources
 
 * [Pepcoding YouTube channel](https://www.youtube.com/c/Pepcoding/playlists)
 * [John Washam coding interview university](https://github.com/jwasham/coding-interview-university)
-
-
-
-
