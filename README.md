@@ -51,7 +51,7 @@ The following is the suggested learning plan for people who are just starting of
 
 ### 3. Week 3
 
-* Sorting
+* [Sorting](./Sorting)
 * Hashing
 
 ### 4. Week 4
