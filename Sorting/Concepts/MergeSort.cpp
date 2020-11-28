@@ -18,6 +18,9 @@ O/p:
 #include <vector>
 using namespace std;
 
+/* Merge function to merge the two arrays.
+Similar concept used in MergingSortedArrays.cpp
+*/
 void merge(vector<int> &arr, int l, int m, int r) {
     int n1 = m-l+1, n2 = r-m, i, j, k;
     int left[n1], right[n2];
@@ -38,12 +41,15 @@ void merge(vector<int> &arr, int l, int m, int r) {
         arr[k++] = right[j++];
 }
 
-void merge_sort(vector<int> &arr, int l, int r) {
-    if(r>l) {
+// Merge sort algo
+void merge_sort(vector<int> &arr, int l, int r) {   // Passing arr by-referrence
+    if(r>l) {   //The array should contain at least two elements
+        /* Calculating middle. Such expression is used to avoid overflow in
+        large values of l and r.*/
         int m = l+(r-l)/2;
-        merge_sort(arr, l, m);
-        merge_sort(arr, m+1, r);
-        merge(arr, l, m, r);
+        merge_sort(arr, l, m);  // Recursively calling from left to middle
+        merge_sort(arr, m+1, r);    //Recursively calling from middle+1 to right
+        merge(arr, l, m, r);    // Merging the divided arrays
     }
 }
 
