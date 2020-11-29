@@ -10,6 +10,8 @@ with sum equal to 0.
 Input: N = 3, arr[] = {1, 2, 3}
 Output: false
 Explanation: No triplet with zero sum exists. 
+
+Similar problem: Triplet_sum_in_array.cpp, Find_no_of_triangles.cpp
 */
 
 bool findTriplets(int arr[], int n)

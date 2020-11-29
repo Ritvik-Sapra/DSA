@@ -18,6 +18,8 @@ possible  with the given elements like
 
 Solution: We first sort the array and then for each pair, check how many numbers
 verify the condition.
+
+Similar problem: Triplet_sum_in_array.cpp, Find_triplets_with_zero_sum_.cpp
 */
 
 int findNumberOfTriangles(int arr[], int n)
