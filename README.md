@@ -34,6 +34,12 @@ The [Extras folder](./Extras) folder contains codes of problems which I found se
 The level of these problems are higher and can be used as a challenge by anyone to solve.
 Although they just make use of strong understanding of the basics.
 
+A folder called [Patterns](./Patterns) also exist. It contains questions based
+on pattern printing. These questions are available in Java and Cpp and are
+excellent for the understanding of control flow and building logic and
+concepts. It is advised that these questions should be solved prior to start
+learning DSA.
+
 ## 2. Learning plan
 
 The following is the suggested learning plan for people who are just starting off to learn DSA.
