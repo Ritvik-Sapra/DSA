@@ -35,7 +35,10 @@ the output like
 880 -1 -1 -1 -1 995 -1 172 -1 647 -1.
 
 Our task:
-You don't need to read input or print anything. Your task is to complete the function QuadraticProbing() which takes the hash table hash[], the hash table size hashSize, an array arr[] and the size of the array N as inputs and inserts all the elements of the array arr[] into the hash table using Quadratic Probing as a collision handling technique.
+You don't need to read input or print anything. Your task is to complete the function QuadraticProbing() 
+which takes the hash table hash[], the hash table size hashSize, an array arr[] and the size of the 
+array N as inputs and inserts all the elements of the array arr[] into the hash table using 
+Quadratic Probing as a collision handling technique.
 */
 
 class Solution

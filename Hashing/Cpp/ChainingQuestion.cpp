@@ -1,7 +1,11 @@
 /*
-Separate chaining technique in hashing allows to us to use a linked list at each hash slot to handle the problem of collisions. That is, every slot of the hash table is a linked list, so whenever a collision occurs, the element can be appened as a node to the linked list at the slot.
+Separate chaining technique in hashing allows to us to use a linked list at each hash slot 
+to handle the problem of collisions. That is, every slot of the hash table is a linked list, 
+so whenever a collision occurs, the element can be appened as a node to the linked list at the slot.
 
-In this question, we'll learn how to fill up the hash table using Separate chaining technique. Given an array and a hashtable size, you have to fill the elements of the array into a hash table of given size.
+In this question, we'll learn how to fill up the hash table using Separate chaining technique. 
+Given an array and a hashtable size, you have to fill the elements of the array into a 
+hash table of given size.
 
 Example 1:
 Input:

@@ -29,7 +29,11 @@ put 99 in the (99+1)%10 =0 slot so
 99 goes into hashtable[0] and so on.
 
 Your Task:
-You don't need to read input or print anything. Your task is to complete the function linearProbing() which takes as input a empty hash table (hash), the hash table size (hashSize), an integers array arr[] and its size N and inserts all the elements of the array arr[] into the given hash table. The empty cells of the hash table are to be given a value of -1. Also, if there's no more space to insert a new element, just drop that element. 
+You don't need to read input or print anything. 
+Your task is to complete the function linearProbing() which takes as input a empty hash table (hash), 
+the hash table size (hashSize), an integers array arr[] and its size N and inserts all the elements of 
+the array arr[] into the given hash table. The empty cells of the hash table are to be given a value of -1. 
+Also, if there's no more space to insert a new element, just drop that element. 
 */
 
 class Solution
