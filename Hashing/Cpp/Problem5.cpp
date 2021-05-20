@@ -33,7 +33,9 @@ number of non-repeated elements
 are 3.
 
 Your Task:
-You don't need to read input or print anything. You only need to complete the function countNonRepeated() that takes array arr[] and its size n as parameters and returns the count of non-repeating elements in the array. 
+You don't need to read input or print anything. You only need to complete the function 
+countNonRepeated() that takes array arr[] and its size n as parameters and returns the 
+count of non-repeating elements in the array. 
 
 Expected Time Complexity: O(n).
 Expected Auxiliary Space: O(n).

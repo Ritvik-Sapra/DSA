@@ -24,7 +24,10 @@ Explanation: 20, 40, 30 are the only
 elements which is having only 1 
 frequency and hence, Non-repeating.
 Your Task:
-You don't need to read input or print anything. You only need to complete the function printNonRepeated() that takes arr and n as parameters and return the array which has the distinct elements in same order as they appear in input array. The newline is appended automatically by the driver code.
+You don't need to read input or print anything. You only need to complete the 
+function printNonRepeated() that takes arr and n as parameters and return the 
+array which has the distinct elements in same order as they appear in input 
+array. The newline is appended automatically by the driver code.
 
 Expected Time Complexity: O(n).
 Expected Auxiliary Space: O(n).
