@@ -63,7 +63,7 @@ The following is the suggested learning plan for people who are just starting of
 ### 4. Week 4
 
 - [Strings](./Strings)
-- Linked Lists
+- [Linked Lists](./LinkedList)
 
 ### 5. Week 5
 
