@@ -116,22 +116,20 @@ CLL *deleteKNode(CLL *head, int k)
     curr->next = temp->next;
     delete temp;
     return head;
-
     //Alternatively, we could also do:
     /*
-        int i = 1;
-        CLL *curr = head;
-        while(i != k) {
-            curr = curr->next;  //i.e. reach the Kth node
-            i++;
-        }
-        CLL *temp = curr->next;
-        curr->next = temp->next;    //i.e. duplicate K+1 node and K node
-        curr->data = temp->data;
-        delete temp;    //i.e. delete the (K+1)th node
-        return head;
-        */
-
+    int i = 1;
+    CLL *curr = head;
+    while(i != k) {
+      curr = curr->next;  //i.e. reach the Kth node
+      i++;
+    }
+    CLL *temp = curr->next;
+    curr->next = temp->next;    //i.e. duplicate K+1 node and K node
+    curr->data = temp->data;
+    delete temp;    //i.e. delete the (K+1)th node
+    return head;
+    */
     //This code will also remove the condition "else if(k == 1)",
     //as it can handle deleting the head as well.
   }
@@ -148,9 +146,8 @@ int main()
   for (int i = 11; i <= 20; i++)
     head = insertEnd(head, i);
   printList(head);
-  // Delete Kth node. Reuslting List will be interesting.
-  // Alternative nodes will NOT be deleted.
-  for (int i = 1; i <= 20; i += 2)
+  // Delete Kth node. Deleting alternatives. Deleting all odd no.
+  for (int i = 1; i <= 10; i++)
   {
     head = deleteKNode(head, i);
   }
