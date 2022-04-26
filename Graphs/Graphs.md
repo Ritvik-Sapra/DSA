@@ -1,4 +1,6 @@
 There are two types of graphs: 1) Directed and 2) Undirected
+In directed graphs, we have edges going in a particular direction from one vertice (V) to another.
+In undirected graphs, we don't have any direction in edges.
 
 A Walk is when we get all the vertices going from one V to another V.
 A Simple Path is known as when we get all the vertices going from one V to another V but not repeating any edges in between.
@@ -22,4 +24,10 @@ Note: Here we are representing V as numbers but there might be a scenerio where 
 
 Please refer to Adjacency List code implementation and Adjacency Matrix code implementation to understand their coding.
 
+List of concepts in graphs:
+1. Print adjacency list
+2. BFS of graph
+3. DFS of graph
 
+List of questions in graphs:
+1. Find no. of islands
