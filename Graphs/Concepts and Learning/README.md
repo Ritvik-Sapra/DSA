@@ -8,7 +8,7 @@ This folder contains the explanation and code implementation of some of the basi
 
 Following are the contents of this folder
 
-* [Print Adjacency List](./"Print adjacency list")
-* [BFS of Graph](./"BFS of graph")
-* [DFS of Graph](./"DFS of graph")
-* [Find Islands](./"Find islands")
+* [Print Adjacency List](./Print%20adjacency%20list")
+* [BFS of Graph](./BFS%20of%20graph)
+* [DFS of Graph](./DFS%20of%20graph)
+* [Find Islands](./Find%20islands)
