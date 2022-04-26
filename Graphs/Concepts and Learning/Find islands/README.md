@@ -1,4 +1,4 @@
-[]Find no. of Islands](https://practice.geeksforgeeks.org/problems/find-the-number-of-islands/1/?track=DSASP-Graph&batchId=154)
+[Find no. of Islands](https://practice.geeksforgeeks.org/problems/find-the-number-of-islands/1/?track=DSASP-Graph&batchId=154)
 
 Problem description:
 
