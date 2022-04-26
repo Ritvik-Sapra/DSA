@@ -1,4 +1,4 @@
-Algorithm
+# Algorithm
 
 1. Declare two lists dx and dy which will contain x and y coordinates of all the 8 neighbors of any cell respectively.
 2. Declare a function 'isValid()' to check if the address we are trying to access is valid or not.
@@ -6,9 +6,9 @@ Algorithm
 4. Traverse through the grid, if we find 1 and (i, j) is not visited then we push it into queue and mark it as visited. This is starting of an island so increase count.
 5. Run a loop until q is empty.
 6. Consider if where all we can move from the popped out cell of the queue and keep inserting in queue which are not visited.
-7 Return count (no. of islands)
+7. Return count (no. of islands)
 
-How to solve the problem 'Find no. of islands'?
+## How to solve the problem 'Find no. of islands'?
 
 We are given and adjacency matrix containing characters of either '0' or '1'.
 It is an undirected graph and if there is an edge present, there is '1' otherwise there is '0'.
