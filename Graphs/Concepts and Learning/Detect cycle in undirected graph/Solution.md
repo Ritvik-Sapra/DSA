@@ -6,9 +6,9 @@ To solve this problem we already know how to approach it. We will do a traversal
 
 However, there is a small corner case here. Consider the below undirected graph containg cycle.
 
-[image info](./image.png)
+[Consider this graph](./image.png)
 
-In this graph, we will start from 1. We will go to 2, and now 2 has 3 adjacents: 1, 3 and 4. From this, 1 is already visited but it is not a cycle.
+In this graph, we will start from 0. We will go to 1, and now 1 has 3 adjacents: 0, 2 and 4. From this, 0 is already visited but it is not a cycle.
 
 So we have to maintain a parent variable to keep track of the parent. The visited node is not necessarily cycle if its a parent node. 
 
