@@ -12,3 +12,4 @@ Following are the contents of this folder
 * [BFS of Graph](./BFS%20of%20graph)
 * [DFS of Graph](./DFS%20of%20graph)
 * [Find Islands](./Find%20islands)
+* [Detect cycle in undirected graph](./Detect%20cycle%20in%20undirected%20graph)
