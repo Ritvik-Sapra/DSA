@@ -12,7 +12,7 @@ They use algorithms. A lot of thought has been put into crafting these algorithm
 
 In this folder, we study a few of these algorithms in detail. However, please note that there might be more better searching algorithms out there. There are just the ones which are important to solve DSA problems and which I know.
 
-In the file Searching, we discuss about all the important concepts we will study here. Then, we have two folders namely, Concepts and Learning and Practice.
+In the file **Searching.md**, we discuss about all the important concepts we will study here. Then, we have two folders namely, [Concepts and Learning](./Concepts%20and%20Learning/) and [Practice](./Practice).
 
 The Concepts and Learning folder contains all the problems which are important to better understand the concepts we will learn.
 
